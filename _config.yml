@@ -1,9 +1,6 @@
-remote_theme: tajacks/lightspeed
+theme: jekyll-theme-minima 
 title: Prompty Srompty!
-description: Strona na motywie lightspeed
+description: thi is MINIMA!
 
 
-# plugins:
-#  - jekyll-feed
-#  - jekyll-seo-tag
 
