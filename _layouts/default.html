@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title | escape }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ site.styles }}
+  </head>
+
+  <body>
+    <header class="hero">
+      <h1>{{ site.title | default: "TYTUŁ STRONY" }}</h1>
+      <p>{{ site.subtitle | default: "mój własny podtytuł" }}</p>
+    </header>
+
+    <main class="container">
+      {{ content }}
+    </main>
+  </body>
+</html>
