@@ -1,7 +1,6 @@
-#remote_theme: tajacks/lightspeed
-remote_theme: abhinavs/moonwalk
+remote_theme: tajacks/lightspeed
 title: Prompty Srompty!
-description: Strona na motywie moonwalk
+description: Strona na motywie lightspeed
 
 
 # plugins:
