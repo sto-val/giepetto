@@ -1,6 +1,5 @@
 ---
-layout: post
-title: Wi
+layout: page
 ---
 
 <h1>jakiś nagłówek</h1>
