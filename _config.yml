@@ -1,0 +1,8 @@
+title: Moja strona
+description: Mój blog na Lightspeed
+remote_theme: tajacks/lightspeed
+
+# wymagane przez GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
