@@ -3,5 +3,5 @@ layout: default
 title: Witaj
 ---
 
-<h1>To jest moja strona na motywie Lightspeed</h1>
-<p>Teraz zobaczysz styl motywu.</p>
+<h1>jakiś nagłówek</h1>
+<p>i jakaś sobie tutaj treść</p>
