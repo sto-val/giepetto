@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Wit
+layout: post
+title: Wi
 ---
 
 <h1>jakiś nagłówek</h1>
