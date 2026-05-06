@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Witaj
+title: Wit
 ---
 
 <h1>jakiś nagłówek</h1>
