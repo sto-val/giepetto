@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
+<div class="gallery">
+  <a href="img/photo1.jpg" class="glightbox"><img src="img/photo1.jpg"></a>
+  <a href="img/photo2.jpg" class="glightbox"><img src="img/photo2.jpg"></a>
+  <a href="img/photo3.jpg" class="glightbox"><img src="img/photo3.jpg"></a>
+  <a href="img/photo4.jpg" class="glightbox"><img src="img/photo4.jpg"></a>
+  <a href="img/photo5.jpg" class="glightbox"><img src="img/photo5.jpg"></a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  
+ 
+  const lightbox = GLightbox({
+    openAt: 0   // <-- Otwiera slideshow automatycznie
+  });
+
+  // Otwórz automatycznie po załadowaniu strony
+  window.addEventListener('load', () => {
+    lightbox.open();
+  });
+
+ 
+</script>
