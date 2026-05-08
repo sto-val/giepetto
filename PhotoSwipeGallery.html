@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>PhotoSwipe – Galeria 600x600</title>
+
+  <!-- PhotoSwipe CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css">
+</head>
+<body>
+
+<!-- GALERIA -->
+<div class="gallery" id="gallery">
+
+  <a href="img/photo1.jpg"
+     data-pswp-width="600"
+     data-pswp-height="600"
+     target="_blank">
+    <img src="img/photo1.jpg" width="200">
+  </a>
+
+  <a href="img/photo2.jpg"
+     data-pswp-width="600"
+     data-pswp-height="600"
+     target="_blank">
+    <img src="img/photo2.jpg" width="200">
+  </a>
+
+  <a href="img/photo3.jpg"
+     data-pswp-width="600"
+     data-pswp-height="600"
+     target="_blank">
+    <img src="img/photo3.jpg" width="200">
+  </a>
+
+  <a href="img/photo4.jpg"
+     data-pswp-width="600"
+     data-pswp-height="600"
+     target="_blank">
+    <img src="img/photo4.jpg" width="200">
+  </a>
+
+  <a href="img/photo5.jpg"
+     data-pswp-width="600"
+     data-pswp-height="600"
+     target="_blank">
+    <img src="img/photo5.jpg" width="200">
+  </a>
+
+</div>
+
+<!-- PhotoSwipe JS -->
+<script src="https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js" type="module"></script>
+
+<script type="module">
+  import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js';
+
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '#gallery',
+    children: 'a',
+    pswpModule: () => import('https://unpkg.com/photoswipe@5/dist/photoswipe.esm.min.js')
+  });
+
+  lightbox.init();
+</script>
+
+</body>
+</html>
